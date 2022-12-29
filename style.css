@@ -1,0 +1,124 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+}
+.img-bg{
+    width: 110%;
+    /*height: 80vh;*/
+    opacity: 50%;
+}
+header{
+    position: absolute;
+    top: 20px;
+    left: 50px; 
+}
+header .logo{
+    width: 180px;
+    height: auto;
+}
+.login{
+    width: 23%;
+    position: absolute;
+    background-color: #0000008a;
+    top: 12%;
+    margin: 0 auto;
+    right: 0;
+    left: 0;
+    border-radius: 3px;
+    color: white;
+    padding: 20px;
+   
+}
+.login .input-box{
+    display: flex;
+    flex-direction: column;
+}
+.login .input-box input{
+    border: none;
+    padding: 15px;
+    margin: 10px;
+    font-size: 1em;
+    background-color: #333;
+    border-radius: 5px;
+}
+.login .input-box button{
+    border: none;
+    padding: 15px;
+    margin: 50px 10px 0px 10px;
+    background-color: #e50914;
+    color: white;
+    font-size: 1em;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.login .remember-me{
+    margin: 0px 10px ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #b3b3b3;
+}
+.login .remember-me div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login .remember-me div input:checked{
+    background-color: gray;
+}
+.login .remember-me div label {
+    font-size: 0.8em;
+}
+.login .remember-me p{
+    font-size:  0.8em;
+}
+.login .kayit{
+    margin: 80px 10px 80px 10px;
+    width: 70%;
+}
+.login .kayit p{
+    color: #8c8c8c;
+}
+.login .kayit p span{
+    color: white;
+}
+.login .kayit .text1 span{
+   color: #0071eb;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    height: 70px;
+    background-color: rgba(0, 0, 0, 0.515);
+    position: absolute;
+    bottom: -25px;
+    left: 0;
+    padding: 20px;
+}
+.footer a {
+     color: #737373;
+     text-decoration: none;
+     cursor: pointer;
+}
+.footer a:hover {
+    text-decoration: underline;
+}
+.footer .blok1 {
+    color: #737373;
+}
+.blok2{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+}
+.blok3{
+    display: flex;
+    justify-content: space-between;
+    width: 26%;
+}
